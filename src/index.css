@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/moon-get');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --primary-color: #FBDB54;
+  --secondary-color: #50e3c2;
+  --text-color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'MOON GET!', sans-serif;
+  color: var(--text-color);
+}
