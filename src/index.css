@@ -17,6 +17,12 @@ img {
   --text-color: #333;
 }
 
+body {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+
 h1,
 h2,
 h3 {
