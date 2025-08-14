@@ -19,8 +19,8 @@ img {
 }
 
 body {
-  background-color: var(--primary-color);
-  padding: 1rem;
+  background-image: linear-gradient(to bottom, #fbdb54, #c3a93e, #8d7929, #5b4d16, #2e2500);
+  padding: .5rem;
 }
 
 
@@ -29,4 +29,29 @@ h2,
 h3 {
   font-family: 'MOON GET!', sans-serif;
   color: var(--text-color);
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+
+
+header {
+  padding: 0.5rem;
+  border: #333 solid 1px;
+  border-radius: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: #333 0px 0px 10px 0px;
+  backdrop-filter: blur(3px);
+
+
+  .utils_link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
 }
