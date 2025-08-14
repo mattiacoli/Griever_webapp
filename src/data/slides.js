@@ -1,7 +1,7 @@
 const slides = [
   {
     id: 1,
-    image: "/assets/img/slides/DSC_0146.JPG",
+    image: "/assets/img/slides/IMG_0296.jpeg",
     alt: "Slide 1",
   },
   {
@@ -21,7 +21,7 @@ const slides = [
   },
   {
     id: 5,
-    image: "/assets/img/slides/DSC_0188.JPG",
+    image: "/assets/img/slides/DSC_0146.JPG",
     alt: "Slide 5",
   },
   {

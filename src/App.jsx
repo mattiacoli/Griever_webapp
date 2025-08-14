@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import DefaultLayout from "./layouts/DefaultLayout";
 import Homepage from "./pages/Homepage";
+import Biography from "./pages/Biography";
+import AudioPlayer from "./components/AudioPlayer";
 
 function App() {
 
@@ -10,6 +12,9 @@ function App() {
       <Routes>
         <Route Component={DefaultLayout}>
           <Route path="/" element={<Homepage />} />
+          <Route path="/bio" Component={Biography} />
+          <Route path="/discography" Component={AudioPlayer} />
+
         </Route>
       </Routes>
 

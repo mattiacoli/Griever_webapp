@@ -9,14 +9,14 @@ export default function Header() {
         </NavLink>
 
         <div className="utils d-flex gap-1">
-          <Link to="/" className="utils_link" >
-            Home
-          </Link>
-          <Link to="/about" className="utils_link">
-            About
+          <Link to="/bio" className="utils_link">
+            Bio
           </Link>
           <Link to="/contact" className="utils_link">
-            Contact
+            Contacts
+          </Link>
+          <Link to="/discography" className="utils_link">
+            Discography
           </Link>
         </div>
       </nav>
