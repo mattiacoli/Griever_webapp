@@ -12,7 +12,7 @@ export default function Header() {
           <Link to="/bio" className="utils_link">
             Bio
           </Link>
-          <Link to="/contact" className="utils_link">
+          <Link to="/contact_us" className="utils_link">
             Contacts
           </Link>
           <Link to="/discography" className="utils_link">

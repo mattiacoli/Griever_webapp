@@ -14,7 +14,7 @@ img {
 
 :root {
   --primary-color: #FBDB54;
-  --secondary-color: #50e3c2;
+  --secondary-color: #fa7b6a;
   --text-color: #333;
 }
 
@@ -69,3 +69,116 @@ main {
 }
 
 /* #endregion main */
+
+/* #region form */
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(251, 220, 84, 0.3);
+  border-radius: 20px;
+  box-shadow: #333 0px 0px 10px 0px;
+  backdrop-filter: blur(18px);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'MOON GET!', sans-serif;
+  color: var(--text-color);
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 3px rgba(80, 227, 194, 0.2);
+}
+
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 15px;
+  font-family: 'MOON GET!', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-button:hover {
+  background-color: #3dd1ae;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-button:active {
+  transform: translateY(0);
+}
+
+.form-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.success-message {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'MOON GET!', sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  background-color: rgba(80, 227, 194, 0.2);
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* #endregion form */
