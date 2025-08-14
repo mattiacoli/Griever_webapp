@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 
+import Header from "../components/Header";
+
+
 export default function DefaultLayout() {
   return (
     <div className="default-layout">
 
-      <header>
+      <Header />
 
-      </header>
-
-      <main>
+      <main className="my-4 min-vh-100">
         <Outlet />
       </main>
 
