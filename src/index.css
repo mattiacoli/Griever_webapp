@@ -19,7 +19,7 @@ img {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #fbdb54, #c3a93e, #8d7929, #5b4d16, #2e2500);
+  background-color: var(--primary-color);
   padding: .5rem;
 }
 
@@ -36,17 +36,18 @@ p {
   color: var(--text-color);
 }
 
-
+/* #region header */
 header {
   padding: 0.5rem;
-  border: #333 solid 1px;
+  /* border: #333 solid 1px; */
+  background-color: #fbdc5496;
   border-radius: 20px;
   position: sticky;
   top: 0;
   z-index: 1000;
   width: 100%;
   box-shadow: #333 0px 0px 10px 0px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(18px);
 
 
   .utils_link {
@@ -55,3 +56,16 @@ header {
     font-weight: 600;
   }
 }
+
+/* #endregion header */
+
+/* #region main */
+main {
+  .socials {
+    a {
+      color: var(--text-color);
+    }
+  }
+}
+
+/* #endregion main */

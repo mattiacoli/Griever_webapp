@@ -1,6 +1,5 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/bundle';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import Slider from "../components/Slider";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Homepage() {
   return (
@@ -11,29 +10,22 @@ export default function Homepage() {
         <p>Benvenuti nella pagina dei ragazzi timidi</p>
       </div>
 
-      <div className="container">
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={50}
-          slidesPerView={1}
-          autoplay={{ delay: 2500, disableOnInteraction: true }}
-          loop={true}
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
-        >
-          <SwiperSlide>
-            <img src="/assets/img/DSC_0139.JPG" alt="Slide 1" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="/assets/img/DSC_0142.JPG" alt="Slide 2" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="/assets/img/DSC_0171.JPG" alt="Slide 3" />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-    </div>
+
+      <Slider />
+      <section className="socials my-3">
+        <h2 className="text-center">FOLLOW US</h2>
+        <div className="social-icons text-center">
+          <a href="https://open.spotify.com/artist/2QXqvD5l5HpnpS95kcEvl3?si=g9vfIxaXTp2FfCNwLUhhaw" className="mx-3" style={{ fontSize: "2rem" }}>
+            <i className="bi bi-spotify"></i>
+          </a>
+          <a href="https://instagram.com/griever_it?igshid=MTIyMzRjYmRlZg==" className="mx-3" style={{ fontSize: "2rem" }} >
+            <i className="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/@griever_it" className="mx-3" style={{ fontSize: "2rem" }} >
+            <i className="bi bi-youtube"></i>
+          </a>
+        </div>
+      </section >
+    </div >
   );
 }
