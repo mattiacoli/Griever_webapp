@@ -14,12 +14,12 @@ img {
 
 :root {
   --primary-color: #FBDB54;
-  --secondary-color: #fa7b6a;
-  --text-color: #333;
+  --light-color: #fffddb;
+  --dark-color: #333;
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--dark-color);
   padding: .5rem;
 }
 
@@ -28,7 +28,6 @@ h1,
 h2,
 h3 {
   font-family: 'MOON GET!', sans-serif;
-  color: var(--text-color);
 }
 
 p {
@@ -61,10 +60,17 @@ header {
 
 /* #region main */
 main {
+
+  color: var(--primary-color);
+
   .socials {
     a {
-      color: var(--text-color);
+      color: var(--primary-color);
     }
+  }
+
+  .slider {
+    width: 100%;
   }
 }
 
