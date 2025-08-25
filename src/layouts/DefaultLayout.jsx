@@ -1,21 +1,12 @@
 import { Outlet } from "react-router-dom";
-import { FloatButton } from 'antd';
-import { MenuOutlined } from "@ant-design/icons"
 import Header from "../components/Header";
-
+import Fab from "../components/Fab";
 
 export default function DefaultLayout() {
   return (
     <div className="default-layout">
 
-
-      <div className="menu">
-        <FloatButton icon={<MenuOutlined />}
-          style={{ bottom: "1rem", right: ".5rem" }}
-        />
-      </div>
-
-
+      <Fab />
 
       <Header />
 

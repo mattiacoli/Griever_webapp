@@ -1,13 +1,22 @@
 import { useForm, ValidationError } from '@formspree/react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Contattaci() {
+  const navigator = useNavigate()
   const [state, handleSubmit] = useForm("xgvzqydb");
 
   if (state.succeeded) {
     return (
-      <div className="success-message">
-        Grazie per averci contattato! Ti risponderemo presto.
+      <div className="contact-success text-center">
+        <div className="success-message">
+          Grazie per averci contattato! Ti risponderemo presto.
+        </div>
+
+        <button className='btn btn-primary mt-3' onClick={() => navigator("/")}>
+          Torna alla pagina principale
+        </button>
       </div>
+
     );
   }
 

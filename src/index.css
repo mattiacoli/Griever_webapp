@@ -22,6 +22,10 @@ body {
   background-color: var(--dark-color);
 }
 
+.fab-group .ant-float-btn {
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 0 5px var(--dark-color) !important;
+}
 
 h1,
 h2,
@@ -127,7 +131,7 @@ main {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--dark-color);
   transition: all 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
