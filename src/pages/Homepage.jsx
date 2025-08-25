@@ -7,11 +7,11 @@ export default function Homepage() {
     <div className="homepage w-100">
 
 
-      <div className="welcome text-center">
+      {/* <div className="welcome text-center">
         <h1>GRIEVER</h1>
         <h3>LOVES SHY GUY</h3>
         <p>Benvenuti nella pagina dei ragazzi timidi</p>
-      </div>
+      </div> */}
 
       <section className="slider">
         <Slider />
