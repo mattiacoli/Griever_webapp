@@ -1,4 +1,5 @@
 import Slider from "../components/Slider";
+import { Link } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Homepage() {
@@ -29,6 +30,12 @@ export default function Homepage() {
           </a>
         </div>
       </section >
+
+      <section className="contact text-center my-4">
+        <Link to="/contact_us" className="btn p-3">
+          <h2>CONTATTACI</h2>
+        </Link>
+      </section>
     </div >
   );
 }

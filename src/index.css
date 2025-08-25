@@ -20,7 +20,6 @@ img {
 
 body {
   background-color: var(--dark-color);
-  padding: .5rem;
 }
 
 
@@ -37,15 +36,13 @@ p {
 
 /* #region header */
 header {
-  padding: 0.5rem;
-  /* border: #333 solid 1px; */
-  background-color: #fbdc5496;
-  border-radius: 20px;
+  padding: 0 0.5rem;
+  background-color: var(--primary-color);
   position: sticky;
   top: 0;
   z-index: 1000;
   width: 100%;
-  box-shadow: #333 0px 0px 10px 0px;
+  box-shadow: #222220 0px 0px 10px 0px;
   backdrop-filter: blur(18px);
 
 
@@ -53,6 +50,7 @@ header {
     color: var(--text-color);
     text-decoration: none;
     font-weight: 600;
+    font-size: .75rem;
   }
 }
 
@@ -71,6 +69,18 @@ main {
 
   .slider {
     width: 100%;
+  }
+
+  .contact {
+    .btn {
+      background-color: var(--primary-color);
+
+      &:hover {
+        background-color: var(--dark-color);
+      }
+    }
+
+
   }
 }
 

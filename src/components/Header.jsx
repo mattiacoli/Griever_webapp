@@ -10,10 +10,7 @@ export default function Header() {
 
         <div className="utils d-flex gap-1">
           <Link to="/bio" className="utils_link">
-            Bio
-          </Link>
-          <Link to="/contact_us" className="utils_link">
-            Contacts
+            Chi siamo
           </Link>
           <Link to="/discography" className="utils_link">
             Discography
