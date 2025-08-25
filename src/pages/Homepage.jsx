@@ -34,8 +34,8 @@ export default function Homepage() {
       </section >
 
       <section className="contact text-center my-4">
-        <Link to="/contact_us" className="btn p-3">
-          <h2>CONTATTACI</h2>
+        <Link to="/contact_us" className="btn">
+          <h2 style={{ marginTop: ".5rem" }}>CONTATTACI</h2>
         </Link>
       </section>
     </div >

@@ -8,7 +8,7 @@ export default function Header() {
           <img src="/assets/img/Logo_bw.png" alt="logo" className="logo" style={{ width: "50px" }} />
         </NavLink>
 
-        <h1>GRIEVER</h1>
+        <h1 className="mt-3">GRIEVER</h1>
 
         <div className="utils d-flex gap-1">
           <Link to="/bio" className="utils_link">
