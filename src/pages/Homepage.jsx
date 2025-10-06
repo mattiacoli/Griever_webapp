@@ -13,21 +13,21 @@ export default function Homepage() {
         <p>Benvenuti nella pagina dei ragazzi timidi</p>
       </div> */}
 
-      <section className="slider">
-        <Slider />
-      </section>
+      <Slider />
+
+
 
 
       <section className="socials my-3">
         <h2 className="text-center">FOLLOW US</h2>
         <div className="social-icons text-center">
-          <a href="https://open.spotify.com/artist/2QXqvD5l5HpnpS95kcEvl3?si=g9vfIxaXTp2FfCNwLUhhaw" className="mx-3" style={{ fontSize: "2rem" }}>
+          <a href="https://open.spotify.com/artist/2QXqvD5l5HpnpS95kcEvl3?si=g9vfIxaXTp2FfCNwLUhhaw" className="mx-3">
             <i className="bi bi-spotify"></i>
           </a>
-          <a href="https://instagram.com/griever_it?igshid=MTIyMzRjYmRlZg==" className="mx-3" style={{ fontSize: "2rem" }} >
+          <a href="https://instagram.com/griever_it?igshid=MTIyMzRjYmRlZg==" className="mx-3">
             <i className="bi bi-instagram"></i>
           </a>
-          <a href="https://www.youtube.com/@griever_it" className="mx-3" style={{ fontSize: "2rem" }} >
+          <a href="https://www.youtube.com/@griever_it" className="mx-3">
             <i className="bi bi-youtube"></i>
           </a>
         </div>

@@ -12,7 +12,7 @@ export default function Slider() {
         slidesPerView={1}
         loop={true}
         scrollbar={{ draggable: true }}
-      //autoplay={{ delay: 2500, disableOnInteraction: false }}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
